@@ -285,6 +285,13 @@ def btnfunc03():  # 发布
     sh("hexo d")
     print("已发布到Github")
     sys.stdout = output
+
+def btnfunc04():  # 打开文件位置
+    output = sys.stdout
+    sys.stdout = StdoutRedirector(textMess)
+    os.system("start " + rootDir)
+    print("已打开文件所在位置")
+    sys.stdout = output
     
 def new():       # 新建
     last = NameEntry.get()                    # 获取输入框内容
