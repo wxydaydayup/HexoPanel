@@ -1,10 +1,7 @@
 # HexoPanel
 Hexo可视化控制台(自制)
-# Hexo可视化脚本
 
 由于每次都需要切换到Hexo目录，在CMD输入Hexo指令，为了简化该操作，使用了Python自带的tkinter简单的开发了一款可视化界面！！！
-
-<img src="/images/Hexo%E5%8F%AF%E8%A7%86%E5%8C%96%E8%84%9A%E6%9C%AC/image-20221107120308554.png" alt="Hexo可视化脚本效果图" style="zoom: 50%;" />
 
 Tkinter是Python GUI界面开发的库，并不需要额外引入相关库
 
@@ -23,9 +20,6 @@ if __name__ == '__main__':
     root.mainloop()
 ```
 
-效果如图所示：
-
-<img src="/images/Hexo%E5%8F%AF%E8%A7%86%E5%8C%96%E8%84%9A%E6%9C%AC/image-20221108094922069.png" alt="构建主页面" style="zoom:50%;" />
 
 ### 二、添加输入框、确定和草稿按钮
 
@@ -110,9 +104,6 @@ if __name__ == '__main__':
     root.mainloop()
 ```
 
-效果如图所示：
-
-<img src="/images/Hexo%E5%8F%AF%E8%A7%86%E5%8C%96%E8%84%9A%E6%9C%AC/image-20221108095140843.png" alt="添加输入框" style="zoom:50%;" />
 
 ### 三、添加ScrolledText作为打印框
 
@@ -211,9 +202,6 @@ if __name__ == '__main__':
     root.mainloop()
 ```
 
-效果如图所示：
-
-<img src="/images/Hexo%E5%8F%AF%E8%A7%86%E5%8C%96%E8%84%9A%E6%9C%AC/image-20221108101447437.png" alt="添加打印框" style="zoom:50%;" />
 
 ### 四、添加刷新，网址、发布、位置按钮
 
@@ -375,7 +363,3 @@ if __name__ == '__main__':
     # 进入Tkinter消息循环
     root.mainloop()
 ```
-
-最终效果：
-
-<img src="/images/Hexo%E5%8F%AF%E8%A7%86%E5%8C%96%E8%84%9A%E6%9C%AC/image-20221108102346610.png" alt="最终效果" style="zoom:50%;" />
