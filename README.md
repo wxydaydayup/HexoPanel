@@ -355,7 +355,7 @@ if __name__ == '__main__':
     button1['command'] = lambda: btnfunc01()            # 刷新
     button2['command'] = lambda: btnfunc02()            # 打开网址
     button3['command'] = lambda: btnfunc03()            # 新建
-    button4['command'] = lambda: btnfunc04(rootDir)     # 打开文件分配位置
+    button4['command'] = lambda: btnfunc04()            # 打开文件分配位置
 
     #为信息框设置一个容器作为信息输出窗口
     global textMess
